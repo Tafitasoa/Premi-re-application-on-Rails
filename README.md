@@ -9,7 +9,7 @@ Ceci est notre premiere application on rails THP (week4/day4)
  1. Site-statique 
  2. projet_avec_backend
  ```shell
-rails db:migrate #avant de tester
+rails db:migrate #avant de tester le projet 2
 ```
 
 ## Remarques
