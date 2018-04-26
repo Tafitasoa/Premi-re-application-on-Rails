@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"/>
+
+<div style="position:relative;top:80px;">
+<center>
+<h3> <%= @msg %>  </h3>
+<h1> Bienvenue dans la création de nouveau utilisateur</h1> <br> <br>
+
+
+<form action="/" method="post" >
+    <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>" >
+    Le prénom du nouveau User: <br> 
+    <input type="text" name="username"><br><br>
+    Editez son bio: <br>
+    <textarea name="bio"
+    rows="3" cols="50">
+    </textarea> <br><br>
+    <input  type="submit" name="Envoyer">
+
+</form>
+
+<br><br>
+<a href="/" > Home </a>
+
+</center>
+</div>

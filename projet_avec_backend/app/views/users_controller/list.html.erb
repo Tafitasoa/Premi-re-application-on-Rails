@@ -1,0 +1,7 @@
+<h1> Voici la liste des utilisateurs presents dans la base de donnée </h1>
+
+<% for i in 0...@list.length do %>
+  <p> Son nom: <%= @list[i].username %>  </br> Et voila son bio: <%=@list[i].bio %>  </p>
+<% end %>
+
+<a href="/" > Home </a>
