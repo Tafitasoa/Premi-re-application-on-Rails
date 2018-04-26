@@ -7,7 +7,10 @@ Ceci est notre premiere application on rails THP (week4/day4)
 
 ## On a finit les deux exercices de THP
  1. Site-statique 
- 2. projet_avec_backend 
+ 2. projet_avec_backend
+ ```shell
+rails db:migrate #avant de tester le projet 2
+```
 
 ## Remarques
  - Dans le site statique, on a mis about_riana et about_cedric a la place du about_group et about_me(juste une question de préférence)
