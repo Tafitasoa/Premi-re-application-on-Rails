@@ -14,5 +14,6 @@ Ceci est notre premiere application on rails THP (week4/day4)
  - On n'a plus eu le temps de faire la mise en page de notre projet avec backend, alors il n'y a vraiment pas de style dans le deuxieme exercice.
  
  ### Merci a vous!!!! ;)
+ ### N'hesitez pas a nous contacter!!!! 
 
 
